@@ -1,4 +1,4 @@
-/**
+/*
  * Filters gallery images based on the search input.
  * Shows only images whose captions include the search text (case-insensitive).
  * Triggered on every key release in the search field.
