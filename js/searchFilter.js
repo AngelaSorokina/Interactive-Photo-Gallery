@@ -18,9 +18,9 @@ function searchFilter() {
     const caption = img.getAttribute('data-caption').toLowerCase();
 
     if (caption.includes(filter)) {
-      img.style.display = "block";  // показываем, если совпало
+      img.style.display = "block";
     } else {
-      img.style.display = "none";   // прячем, если нет
+      img.style.display = "none"; 
     }
   }
 }
