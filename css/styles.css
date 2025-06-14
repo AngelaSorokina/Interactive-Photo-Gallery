@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+body {
+    background: #FFFFFF;
+    font-family: sans-serif;
+    margin: 0;
+  padding: 24px;
+}
+.search-container {
+    text-align: center;
+    padding: 24px;
+    width: 100%;
+}
+input[type="search"] {
+    padding: 10px;
+    border: 2px solid #DDDDDD;
+    width: 100%;
+    max-width: 510px;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+.gallery {
+    display:grid;
+    max-width: 875px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 25px;
+    margin:auto;
+}
+.gallery img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
